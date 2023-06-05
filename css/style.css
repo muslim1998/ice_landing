@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'roboto';
+    src: url(../fonts/Roboto.ttf);
+}
+
+body{
+    font-family: 'roboto';
+}
+
+.title_block{
+    width: 100%;
+    background: #FEC77E;
+    
+}
+
+.container{
+    /* background: pink; */
+    width: 1250px;
+    margin: 0 auto;
+    
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+}
+
+menu{
+    display: flex;
+    
+}
+
+menu > li{
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 29px;
+    /* identical to box height, or 152% */
+
+    margin-right: 23px;
+    color: #000000;
+}
+
+menu > li:hover{
+color: red;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 120px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #CC2A41;
+}
+
+
+button{
+    padding: 14px 24px;
+    background: #CC2A41;
+    border-radius: 10px;
+    border: none;
+}
+button > a{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #ECE9E9;
+}
+
+.title{
+    margin-top: 69px;
+}
+
+.h1{
+    font-weight: 400;
+    font-size: 196px;
+    line-height: 202px;
+    /* identical to box height, or 103% */
+
+    text-align: center;
+
+    color: #CC2A41;
+}
+.p{
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 27px;
+    /* or 101% */
+    text-align: center;
+    
+
+    color: #BD571B;
+}
+.span{
+    display: flex;
+}
+
+/* ----------------------------------------- */
+.ice_logo{
+    background:#FEC77E;
+    
+}
+
+.ice_p{
+    padding-top: 138px;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 48px;
+    /* identical to box height, or 155% */
+
+    text-align: center;
+
+    color: #CC2A41;
+}
+.ice_img{
+    width: 100%;
+    padding-bottom: 150px;
+}
+
+.ice_cream{
+    margin-top: 76px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* ----------------------------- */
+
+.info{
+    background: #ECE9E9;
+    border: 1px solid #CC2A41;
+    
+}
+.info_container{
+    width: 95%;
+    /* background: red; */
+    margin-left: 75px;
+}
+
+.inform{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+
+.opis{
+    margin-top: 109px;
+    /* border-top: 1px solid red; */
+} 
+
+
+.info_h1{
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 77px;
+    color: #CC2A41;
+}
+.info_p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 27px;
+    color: #000000;
+}
+.info_img{
+    border-left: 1px solid #CC2A41;
+    border-bottom: 1px solid #CC2A41;
+}
+
+/* -------------------------- */
+.ice{
+    background: url(../img/ice.png)no-repeat center/cover;
+}
+.ice_all{
+    padding-top: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ice-h1{
+    font-size: 72px;
+    line-height: 86px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+
+    color: #CC2A41;
+}
+.ice-span{
+    font-size: 64px;
+    line-height: 86px;
+    /* identical to box height, or 135% */
+
+    text-align: center;
+
+    color: #000000;
+    padding-left: 5px;
+}
+
+.ice-pp{
+    text-align: center;
+
+}
+.ice-pp{
+    font-size: 32px;
+    line-height: 32px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #CC2A41;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.ice_pp{
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    color: #000000;
+    padding-bottom: 557px;
+}
+
+/* --------------------- */
+
+.cream{
+    background: #FEC77E;
+}
+
+.container_cream{
+    background: url(../img/l;.png);
+}
+.cream_all{
+    width: 80%;
+    margin: 0 auto;
+}
+.cream_info{
+    display: flex;justify-content: space-between;
+}
+.creams{
+    margin-top: 80px;
+}
+.cream_h1{
+    font-weight: 400;
+    font-size: 112px;
+    line-height: 90px;
+    /* or 80% */
+
+    margin-top: 84px;
+    color: #CC2A41;
+}
+
+.cream_p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+
+
+    color: #CC2A41;
+}
+.qwerty{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.span_cream{
+    font-size: 32px;
+    line-height: 32px;
+    /* or 100% */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #CC2A41;
+    transform: translateY(-130px);
+}
+
+/* ------------------- */
+
+.first{
+    background: #CC2A41;
+}
+.container_first{
+    
+    margin: 0 auto;
+    width: 85%;
+}
+.first_h1{
+    font-size: 112px;
+    line-height: 168px;
+    /* identical to box height, or 150% */
+    padding-top: 112px;
+    text-align: center;
+
+    color: #ECE9E9;
+}
+.first_p{
+    font-size: 24px;
+    line-height: 36px;
+    /* or 150% */
+
+    text-align: center;
+    margin-top: 25px;
+    color: #ECE9E9;
+}
+
+.image_first{
+    display: flex;
+    margin-top: 79px;
+    justify-content: space-between;
+    padding-bottom: 176px;
+}
+
+/* ----------------------- */
+
+footer{
+    width: 100%;
+    background: #FEC77E;
+}
+
+.footer_container{
+    background: url(../img/l;.png);
+    /* width: 80%; */
+    margin: 0 auto;
+}
+.footer_h1{
+    padding-top: 154px;
+    font-size: 96px;
+    line-height: 134px;
+    /* identical to box height, or 140% */
+
+    text-align: center;
+
+    color: #CC2A41;
+}
+.footer_info{
+    width: 80%;
+    margin: 0 auto;
+}
+.footer_city{
+    /* display: grid;
+        grid-template-columns: 1fr 1fr; */
+        display: flex;
+        justify-content: space-between;
+}
+.inf{
+    margin-top: 139px;
+}
+.footer_h2{
+    font-size: 88px;
+    line-height: 114px;
+    
+    color: #CC2A41;
+    margin-top: 49px;
+}
+.footer_number{
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height, or 150% */
+    margin-top: 15px;
+    color: #CC2A41;
+    text-align: center;
+}
+.footer_p{
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height, or 150% */
+    margin-top: 32px;
+    color: #000000;
+}
+.footer_p{
+    /* display: flex; */
+}
+.p2{
+    text-align: center;
+}
+.footer_img{
+    text-align: center;
+}
+
+.end{
+    font-size: 21px;
+    line-height: 38px;
+    /* identical to box height, or 183% */
+
+    text-align: center;
+
+    color: #000000;
+    margin-top: 103px;
+    padding-bottom: 128px;
+}
